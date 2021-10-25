@@ -11798,10 +11798,13 @@ header.masthead {
 }
 .Qr_allignment
 {
-
-  margin-left: 200px;
+  margin-right: 350px;
 }
-
+.verified_icon_allignment
+{
+  margin-right: 200px;
+  margin-bottom: 900px;
+}
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
   background-repeat: no-repeat;
