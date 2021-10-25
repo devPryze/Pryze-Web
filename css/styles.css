@@ -3209,6 +3209,7 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #198754;
   border-color: #198754;
+  background-image: linear-gradient(-90deg,#45B649,#DCE35B);
 }
 .btn-success:hover {
   color: #fff;
@@ -11695,11 +11696,9 @@ p {
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Arial";
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .btn-social {
@@ -11789,7 +11788,7 @@ p {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: center;
+  text-align: right; /*Banner text alignment*/
   color: #fff;
   background-image: url("../assets/img/Web-Banner\ 1.png");
   background-repeat: no-repeat;
@@ -11797,6 +11796,12 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+.Qr_allignment
+{
+
+  margin-left: 200px;
+}
+
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
   background-repeat: no-repeat;
@@ -11823,25 +11828,24 @@ header.masthead {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .heading_Color_white {
   color: white;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
-  font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Arial";
+  align-content: right;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -11851,17 +11855,18 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
+    font-size: 1.3rem;
+    font-style:normal;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1em;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
-    font-weight: 700;
+    font-size: 3rem; /* Font size change from here*/
+    font-weight: 600;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
+
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
