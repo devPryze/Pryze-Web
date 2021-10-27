@@ -3085,7 +3085,6 @@ textarea.form-control.is-invalid {
 }
 
 .btn {
-  display: inline-block;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -3209,7 +3208,7 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #198754;
   border-color: #198754;
-  background-image: linear-gradient(-90deg,#45B649,#DCE35B);
+  background-image: linear-gradient(-90deg, #45b649, #dce35b);
 }
 .btn-success:hover {
   color: #fff;
@@ -11798,21 +11797,21 @@ header.masthead {
 }
 /* Css for section-4*/
 
-
-
-.text_allignment
-{
-  margin-left:300px;
+.banner {
+  margin-right: 100px;
 }
-
-.Qr_allignment
-{
-  margin-right: 350px;
+.btn_design {
+  width: 265px;
+  height: 50px;
 }
-.verified_icon_allignment
-{
-margin-right: 350px;
-padding-bottom: 20px;
+.Qr_allignment {
+  margin-right: 190px;
+  display: inline;
+}
+.verified_icon_allignment {
+  margin-right: 100px;
+  padding-bottom: 20px;
+  display: inline;
 }
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
@@ -11834,8 +11833,7 @@ padding-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.section-footer
-{
+.section-footer {
   background-image: url("../assets/img/Bg_footer.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11845,7 +11843,7 @@ padding-bottom: 20px;
   color: white;
 }
 .Caption_Color_pink {
- color: #0dcaf0;
+  color: #0dcaf0;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11860,7 +11858,7 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 0rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -11871,7 +11869,7 @@ header.masthead .masthead-heading {
   }
   header.masthead .masthead-subheading {
     font-size: 1.3rem;
-    font-style:normal;
+    font-style: normal;
     line-height: 2.25rem;
     margin-bottom: 1em;
   }
@@ -11881,7 +11879,6 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 1rem;
   }
-
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
