@@ -11796,13 +11796,22 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+/* Css for section-4*/
+
+
+.text_allignment
+{
+  margin-left:300px;
+}
+
 .Qr_allignment
 {
   margin-right: 350px;
 }
 .verified_icon_allignment
 {
-
+margin-right: 350px;
+padding-bottom: 20px;
 }
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
@@ -11833,6 +11842,9 @@ header.masthead {
 
 .heading_Color_white {
   color: white;
+}
+.Caption_Color_pink {
+ color: #0dcaf0;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
