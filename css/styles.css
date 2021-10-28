@@ -11819,6 +11819,7 @@ header.masthead {
 .btn_design {
   width: 265px;
   height: 50px;
+  box-shadow: 2px 2px #565e64;
 }
 .Qr_allignment {
   display: inline;
@@ -11826,6 +11827,9 @@ header.masthead {
 .verified_icon_allignment {
   display: inline;
   margin-right: 70px;
+}
+.form_ {
+  color: transparent;
 }
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
@@ -11854,6 +11858,9 @@ header.masthead {
 }
 .card_ {
   margin-left: 200px;
+}
+.light-blue {
+  color: #f1fbff;
 }
 .heading_Color_white {
   color: white;
