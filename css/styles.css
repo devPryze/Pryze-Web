@@ -11707,6 +11707,12 @@ text-align: center;
 .header.masthead{
   background-image: url("../assets/img/Web_mb.png");
 }
+.btn_design
+{
+  width: 200px;
+  height: 46px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
+}
 }
 @media only screen
 and (min-device-width:600px) and (max-device-width:900px) {
