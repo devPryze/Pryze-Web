@@ -11872,18 +11872,18 @@ header.masthead {
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .section-2 {
   background-image: url("../assets/img/Base.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .section-3 {
   background-image: url("../assets/img/Bg_Section-3.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .section-footer {
   background-image: url("../assets/img/Bg_footer.png");
