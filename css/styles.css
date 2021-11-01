@@ -11690,7 +11690,7 @@ p {
 
 
 @media only screen
-and (min-device-width:10px) and (max-device-width:340px) {
+and (min-device-width:10px) and (max-device-width:600px) {
 .test{
   display: none;
 }
@@ -11709,7 +11709,7 @@ text-align: center;
 }
 }
 @media only screen
-and (min-device-width:340px) and (max-device-width:768px) {
+and (min-device-width:600px) and (max-device-width:900px) {
 .test1{
   display: none;
 }
