@@ -11688,6 +11688,36 @@ p {
   margin-bottom: 4rem;
 }
 
+
+@media only screen
+and (min-device-width:375px) and (max-device-width:720px) {
+.test{
+  display: none;
+}
+.test1{
+  display: block;
+}
+.win_text{
+text-align: center;
+}
+.lines
+{
+  display: none;
+}
+.header.masthead{
+  background-image: url("../assets/img/Web_mb.png");
+}
+}
+@media only screen
+and (min-device-width:720px) and (max-device-width:2260px) {
+.test1{
+  display: none;
+}
+.test
+{
+  display: block;
+}
+}
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
@@ -11794,29 +11824,24 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 950px;
 }
 /* Css for section-4*/
 .form_design {
   background: #000000;
   opacity: 0.26;
   width: 360px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
 }
 .banner {
   margin-right: 150px;
 }
 .text_allignment {
   margin-top: 20px;
-  margin-right: 140px;
-}
-.win_text {
-  text-align: left;
-  margin-left: 1150px;
+  margin-right: 100px;
 }
 .lines {
-  width: 320px;
+  width: 350px;
   height: 2px;
-  margin-right: 80px;
 }
 .btn_allignment {
   margin-right: 135px;
@@ -11831,29 +11856,34 @@ header.masthead {
   font-size: 1.1rem;
   padding: 5px;
 }
+.Security_text{
+ margin-top:-60px;
+ margin-right:75px;
 
+}
 .Qr_allignment {
   display: inline;
+  
 }
 .verified_icon_allignment {
   display: inline;
-  margin-right: 70px;
+  margin-right: 150px;
 }
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .section-2 {
   background-image: url("../assets/img/Base.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 .section-3 {
   background-image: url("../assets/img/Bg_Section-3.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 .section-footer {
   background-image: url("../assets/img/Bg_footer.png");
@@ -11873,7 +11903,7 @@ header.masthead {
   color: #0dcaf0;
 }
 header.masthead .masthead-subheading {
-  font-size: 1.5rem;
+  font-size: 1.2rem; /* change web font of subheading here*/
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Arial";
@@ -11893,7 +11923,7 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
-    background-image: url("../assets/img/Web-Banner\ 1_mb.png");
+    background-image: url("../assets/img/Web_mb.png");
   }
   header.masthead .masthead-subheading {
     font-size: 1.3rem;

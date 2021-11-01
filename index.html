@@ -24,9 +24,9 @@
         @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap');
       .section-4 {
           font-family: 'Mulish', sans-serif;
-        background-image: url("assets/img/Bg_Section-4.png");
+           background-image: url("../assets/img/Bg_Section-4.png");
          background-repeat: no-repeat;
-         background-size: cover;
+         background-size: 100%;
 
       }
       #customers-testimonials .item {
@@ -91,7 +91,7 @@
                         <li class="nav-item"><a class="nav-link" href="#section-1">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#section-2">Games</a></li>
                         <li class="nav-item"><a class="nav-link" href="#section-3">Withdrawers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#section-4">User Comments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section-4">Testimonals</a></li>
                        <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>-->
                     </ul>
                 </div>
@@ -99,29 +99,36 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container-fluid" >
-            <div class="banner col-lg-11 text-lg-end">
-                <img src="assets/whiteline.png" >
+        <div class="container-fluid">
+                 <div class="banner col-lg-11 text-lg-end">
+                <img class="lines" src="assets/whiteline.png" >
                 <div class="text-uppercase">
-                <h2>Win Upto</h2><h1 ><b>10000 Rupees</b></h1> <h2>daily</h2>
+                <div class="win_text">
+                 <h2>Win Upto</h2><h1><b>10000 Rupees</b></h1> <h2>daily</h2>
                 </div>
-                <img src="assets/whiteline.png">                
-                <div class="masthead-subheading ">Play Exciting Game and Win Cash Prizes</div>
-                <div class="form-outline ">
-                <input type="tel" id="typePhone" class="form-control-lg form_design" placeholder="Mobile Number" pattern="[0-9]{2}-[0-9]{7}" required/ style="border-radius: 10px;">
-                </div> 
+                </div>
+                <img class="lines" src="assets/whiteline.png">                
+                <div class="masthead-subheading win_text ">Play Exciting Game and Win Cash Prizes</div>
+             <div class="test"><!--test code start here--->
+                 <div class="form-outline ">
+                 <input type="tel" id="typePhone" class="form-control-lg form_design" placeholder="Mobile Number" pattern="[0-9]{2}-[0-9]{7}" required/>
+                 </div> 
                 <br>     
-                <button class="btn btn-success btn_design" href="#services"  style="border-radius: 10px;"><b>Get your link on Sms</b></button>
-                <br>
-                <p > Scan QR Code to download the app</p>
-                <div >
-                <img  src="assets/QR.png" >
-                <img src="assets/verified.png" >
+                <button class="btn btn-success btn_design" href="#services"><b>Get your link on Sms</b></button>
+                <p class="text_allignment"> Scan QR Code to download the app</p>
+           <div>
+                <img class="Qr_allignment" src="assets/QR.png" >
+
+               <img class="verified_icon_allignment"src="assets/verified.png" >
+            
+                <p class="Security_text">Security Verified</p>
                 </div>
-                <p>Security Verified</p>
             </div>
             </div>
-            </div>
+            <div class="test1 win_text">
+                <button class="btn btn-success btn_design" href="#services"><b>Download Application</b></button>  
+            </div> 
+        </div>
         </header>
         <!-- Services-->
         <section class="page-section section-1" id="section-1">
@@ -136,7 +143,6 @@
                 </div>
                 <br>
                 <br>
-                <div class="card-group">
                    <div class="row text-center">
                     <div class="col-md-3">
                       <div class="card" style=" border-radius: 25px; ">
@@ -167,7 +173,6 @@
                     </div>
                     </div>
                     </div>
-                    </div>
                 </section>
                 <!----Second Section---->
                 <section class="section-2" id="section-2">
@@ -191,7 +196,7 @@
                                 <!-- Wrapper for carousel items -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                         <img src="assets/Mobile_Image_1.png" class=" w-25" alt="Slide 1">
+                                         <img src="assets/Main Mobile Mockup.png" class=" w-25" alt="Slide 1">
                                          <br>
                                         <br><br><br>
                                         <div class="carousel-caption">
@@ -246,7 +251,7 @@
                            <div class="row text-center">
                             <div class="col-md-6">
                               <div class="card"style=" border-radius: 25px;">
-                                <img src="assets/easy.png" class="mx-auto d-block">
+                                <img class="mx-auto d-block"src="assets/_easypaisa.png" >
                                 <h6 class="my-3"><b>Easy Paisa</b></h6>
                                 <!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
                                </div>
@@ -254,7 +259,7 @@
                            
                             <div class="col-md-6">
                                 <div class="card" style=" border-radius: 25px;">
-                                    <img src="assets/jazzcash.png"class="mx-auto d-block" >
+                                    <img class="mx-auto d-block"src="assets/JazzCash.png" >
                                 <h6 class="my-3"><b>Jazz Cash</b></h6>
                                 <!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
                                 </div>
@@ -263,7 +268,7 @@
                             </div>
         </section>
             <!----Forth Section---->
-         <section class="testimonials section-4" id="section-4">
+         <section class="testimonials section-4">
             <div class="container">
                      <div class="row">
                 <div class="col-sm-12">
