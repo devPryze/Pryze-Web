@@ -11688,41 +11688,39 @@ p {
   margin-bottom: 4rem;
 }
 
-
-@media only screen
-and (min-device-width:10px) and (max-device-width:600px) {
-.test{
-  display: none;
+@media only screen and (min-device-width: 10px) and (max-device-width: 767px) {
+  .test {
+    display: none;
+  }
+  .test1 {
+    display: block;
+  }
+  .win_text {
+    text-align: center;
+  }
+  .lines {
+    display: none;
+  }
+  .header.masthead {
+    background-image: url("../assets/img/Web_mb.png");
+  }
+  .btn_design {
+    width: 200px;
+    height: 46px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
+  }
+  .card_padding {
+    padding-bottom: 15px;
+    box-sizing: border-box;
+  }
 }
-.test1{
-  display: block;
-}
-.win_text{
-text-align: center;
-}
-.lines
-{
-  display: none;
-}
-.header.masthead{
-  background-image: url("../assets/img/Web_mb.png");
-}
-.btn_design
-{
-  width: 200px;
-  height: 46px;
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
-}
-}
-@media only screen
-and (min-device-width:600px) and (max-device-width:900px) {
-.test1{
-  display: none;
-}
-.test
-{
-  display: block;
-}
+@media only screen and (min-device-width: 769px) and (max-device-width: 2000px) {
+  .test1 {
+    display: none;
+  }
+  .test {
+    display: block;
+  }
 }
 @media (min-width: 768px) {
   section {
@@ -11862,14 +11860,12 @@ header.masthead {
   font-size: 1.1rem;
   padding: 5px;
 }
-.Security_text{
- margin-top:-60px;
- margin-right:75px;
-
+.Security_text {
+  margin-top: -60px;
+  margin-right: 75px;
 }
 .Qr_allignment {
   display: inline;
-  
 }
 .verified_icon_allignment {
   display: inline;
@@ -11896,9 +11892,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card_ {
-  margin-left: 200px;
-}
+
 .light-blue {
   color: #f1fbff;
 }
@@ -11925,11 +11919,11 @@ header.masthead .masthead-heading {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
-    background-image: url("../assets/img/Web_mb.png");
+    background-image: url("../assets/img/Web-Banner\ 1.png");
   }
   header.masthead .masthead-subheading {
     font-size: 1.3rem;
