@@ -11722,6 +11722,9 @@ p {
     font-size: 1.5rem;
     box-sizing: border-box;
   }
+  .section-1 {
+    background-image: url("../assets/img/base_mb.png");
+  }
 }
 @media only screen and (min-device-width: 769px) and (max-device-width: 2000px) {
   .test1 {
@@ -11883,7 +11886,9 @@ header.masthead {
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1740px 500px;
+  height: 100%;
+  background-position: center;
 }
 
 .section-2 {
@@ -11894,7 +11899,9 @@ header.masthead {
 .section-3 {
   background-image: url("../assets/img/Bg_Section-3.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1740px 500px;
+  height: 100%;
+  background-position: center;
 }
 .section-footer {
   background-image: url("../assets/img/Bg_footer.png");
@@ -11910,6 +11917,12 @@ header.masthead {
 }
 .Caption_Color_pink {
   color: #0dcaf0;
+}
+.section-2_image {
+  width: 100%; /*1050px;*/
+  height: auto; /*600px;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 header.masthead .masthead-subheading {
   font-size: 1.2rem; /* change web font of subheading here*/
@@ -11945,6 +11958,16 @@ header.masthead .masthead-heading {
     font-weight: 600;
     line-height: 4.5rem;
     margin-bottom: 1rem;
+  }
+  .section-1 {
+    background-image: url("../assets/img/Bg_Section-1.png");
+    background-repeat: no-repeat;
+    background-size: 1740px 500px;
+  }
+  .section-3 {
+    background-image: url("../assets/img/Bg_Section-3.png");
+    background-repeat: no-repeat;
+    background-size: 1740px 500px;
   }
 }
 #portfolio .portfolio-item {
