@@ -11833,13 +11833,15 @@ p {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: right; /*Banner text alignment*/
+  text-align: center; /*Banner text alignment*/
   color: #fff;
   background-image: url("../assets/img/Web-Banner\ 1.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: auto;
+  width: 100%;
 }
 /* Css for section-4*/
 .form_design {
@@ -11850,6 +11852,18 @@ header.masthead {
 }
 .banner {
   margin-right: 150px;
+}
+.text_allignment_p {
+  margin-right: -25px;
+}
+.text_allignment1 {
+  margin-right: 180px;
+}
+.text_allignment2 {
+  margin-right: 50px;
+}
+.text_allignment3 {
+  margin-right: 255px;
 }
 .text_allignment {
   margin-top: 20px;
