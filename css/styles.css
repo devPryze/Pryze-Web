@@ -4909,7 +4909,7 @@ fieldset:disabled .btn {
   }
   .card-group > .card {
     flex: 1 0 0%;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .card-group > .card + .card {
     margin-left: 0;
@@ -11687,6 +11687,7 @@ p {
   margin-bottom: 2rem;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-device-width: 10px) and (max-device-width: 767px) {
   .test {
     display: none;
@@ -11725,6 +11726,42 @@ p {
   .section-1 {
     background-image: url("../assets/img/base_mb.png");
   }
+=======
+
+@media only screen
+and (min-device-width:10px) and (max-device-width:600px) {
+.test{
+  display: none;
+}
+.test1{
+  display: block;
+}
+.win_text{
+text-align: center;
+}
+.lines
+{
+  display: none;
+}
+.header.masthead{
+  background-image: url("../assets/img/Web_mb.png");
+}
+.btn_design
+{
+  width: 360px;
+  height: 46px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
+}
+}
+@media only screen
+and (min-device-width:600px) and (max-device-width:900px) {
+.test1{
+  display: none;
+}
+.test
+{
+  display: block;
+>>>>>>> Stashed changes
 }
 @media only screen and (min-device-width: 769px) and (max-device-width: 2000px) {
   .test1 {
