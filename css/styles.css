@@ -4909,7 +4909,7 @@ fieldset:disabled .btn {
   }
   .card-group > .card {
     flex: 1 0 0%;
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
   .card-group > .card + .card {
     margin-left: 0;
@@ -11687,7 +11687,6 @@ p {
   margin-bottom: 2rem;
 }
 
-<<<<<<< Updated upstream
 @media only screen and (min-device-width: 10px) and (max-device-width: 767px) {
   .test {
     display: none;
@@ -11726,42 +11725,6 @@ p {
   .section-1 {
     background-image: url("../assets/img/base_mb.png");
   }
-=======
-
-@media only screen
-and (min-device-width:10px) and (max-device-width:600px) {
-.test{
-  display: none;
-}
-.test1{
-  display: block;
-}
-.win_text{
-text-align: center;
-}
-.lines
-{
-  display: none;
-}
-.header.masthead{
-  background-image: url("../assets/img/Web_mb.png");
-}
-.btn_design
-{
-  width: 360px;
-  height: 46px;
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
-}
-}
-@media only screen
-and (min-device-width:600px) and (max-device-width:900px) {
-.test1{
-  display: none;
-}
-.test
-{
-  display: block;
->>>>>>> Stashed changes
 }
 @media only screen and (min-device-width: 769px) and (max-device-width: 2000px) {
   .test1 {
@@ -11870,13 +11833,15 @@ and (min-device-width:600px) and (max-device-width:900px) {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: right; /*Banner text alignment*/
+  text-align: center; /*Banner text alignment*/
   color: #fff;
   background-image: url("../assets/img/Web-Banner\ 1.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: auto;
+  width: 100%;
 }
 /* Css for section-4*/
 .form_design {
@@ -11887,6 +11852,18 @@ header.masthead {
 }
 .banner {
   margin-right: 150px;
+}
+.text_allignment_p {
+  margin-right: -25px;
+}
+.text_allignment1 {
+  margin-right: 180px;
+}
+.text_allignment2 {
+  margin-right: 50px;
+}
+.text_allignment3 {
+  margin-right: 255px;
 }
 .text_allignment {
   margin-top: 20px;
@@ -12000,6 +11977,7 @@ header.masthead .masthead-heading {
     background-image: url("../assets/img/Bg_Section-1.png");
     background-repeat: no-repeat;
     background-size: 1740px 500px;
+    background-position: center;
   }
   .section-3 {
     background-image: url("../assets/img/Bg_Section-3.png");
