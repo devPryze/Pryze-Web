@@ -4211,7 +4211,7 @@ fieldset:disabled .btn {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 2rem 1rem;
   color: #ffc800;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -4324,7 +4324,7 @@ fieldset:disabled .btn {
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 100px;
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
@@ -4337,7 +4337,7 @@ fieldset:disabled .btn {
   list-style: none;
 }
 .navbar-nav .nav-link {
-  padding-right: 0;
+  padding-right: 20px;
   padding-left: 0;
 }
 .navbar-nav .dropdown-menu {
@@ -4352,7 +4352,7 @@ fieldset:disabled .btn {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
+  align-items: right;
 }
 
 .navbar-toggler {
@@ -11687,7 +11687,7 @@ p {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-device-width: 10px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 10px) and (max-device-width: 992px) {
   .test {
     display: none;
   }
@@ -11726,7 +11726,7 @@ p {
     background-image: url("../assets/img/base_mb.png");
   }
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 2000px) {
+@media only screen and (min-device-width: 992px) and (max-device-width: 2000px) {
   .test1 {
     display: none;
   }
@@ -11734,6 +11734,7 @@ p {
     display: block;
   }
 }
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
@@ -11867,7 +11868,7 @@ header.masthead {
 }
 .text_allignment {
   margin-top: 20px;
-  margin-right: 100px;
+  margin-right: 110px;
 }
 .lines {
   width: 350px;
@@ -11887,15 +11888,17 @@ header.masthead {
   padding: 5px;
 }
 .Security_text {
-  margin-top: -60px;
-  margin-right: 75px;
+  margin-top: -50px;
+  margin-right: 90px;
+  font-size: 15px;
 }
 .Qr_allignment {
   display: inline;
+  margin-right: 10px;
 }
 .verified_icon_allignment {
   display: inline;
-  margin-right: 150px;
+  margin-right: 160px;
 }
 .section-1 {
   background-image: url("../assets/img/Bg_Section-1.png");
@@ -11960,6 +11963,7 @@ header.masthead .masthead-heading {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
     background-image: url("../assets/img/Web-Banner\ 1.png");
+    background-size: 1740px 1040px;
   }
   header.masthead .masthead-subheading {
     font-size: 1.3rem;
