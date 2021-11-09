@@ -12013,7 +12013,7 @@ header.masthead .masthead-heading {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
     background-image: url("../assets/img/Web-Banner\ 1.png");
-    background-size: 1740px 1040px;
+    background-size: cover;
   }
   header.masthead .masthead-subheading {
     font-size: 1.3rem;
