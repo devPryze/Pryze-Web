@@ -11831,7 +11831,7 @@ p {
     margin-right: 1rem;
   }
   #mainNav .navbar-nav .nav-item:last-child {
-    margin-right: 0;
+    margin-right: -100px;
   }
 }
 header.masthead {
@@ -11847,15 +11847,68 @@ header.masthead {
   height: auto;
   width: 100%;
 }
-/* Css for section-4*/
+/*Css for Section 4*/
+
+#customers-testimonials .item {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  opacity: 0.2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+  max-width: 90px;
+  margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #4280bd;
+  transform: translate3d(0px, -50%, 0px) scale(0.6);
+}
+#customers-testimonials.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  outline: none;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  background: #fff;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+  border-radius: 100%;
+}
+
+/* Css for banner*/
 .form_design {
-  background: #000000;
+  background-color: black;
   opacity: 0.26;
+  color: white;
   width: 360px;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
 }
-.banner {
-  margin-right: 150px;
+::placeholder {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 5px;
+  color: whitesmoke;
 }
 .text_allignment_p {
   margin-right: -25px;
@@ -11885,11 +11938,7 @@ header.masthead {
   height: 46px;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
 }
-::placeholder {
-  text-align: center;
-  font-size: 1.1rem;
-  padding: 5px;
-}
+
 .Security_text {
   margin-top: -50px;
   margin-right: 90px;

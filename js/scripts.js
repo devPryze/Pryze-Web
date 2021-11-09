@@ -1,11 +1,4 @@
-/*!
- * Start Bootstrap - Agency v7.0.9 (https://startbootstrap.com/theme/agency)
- * Copyright 2013-2021 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
- */
-//
 // Scripts
-//
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Navbar shrink function
@@ -47,5 +40,30 @@ window.addEventListener("DOMContentLoaded", (event) => {
         navbarToggler.click();
       }
     });
+  });
+});
+jQuery(document).ready(function ($) {
+  "use strict";
+  //  TESTIMONIALS CAROUSEL HOOK
+  $("#customers-testimonials").owlCarousel({
+    loop: true,
+    center: true,
+    items: 3,
+    margin: 0,
+    autoplay: true,
+    dots: true,
+    autoplayTimeout: 5000,
+    smartSpeed: 450,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      1170: {
+        items: 3,
+      },
+    },
   });
 });
