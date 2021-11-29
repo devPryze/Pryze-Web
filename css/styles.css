@@ -11713,6 +11713,12 @@ p {
     height: 46px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
   }
+  .btn_design_download_ {
+    margin-right: -500px;
+    width: 120px;
+    height: 30px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
+  }
   .card_padding {
     padding-bottom: 15px;
     box-sizing: border-box;
@@ -11914,20 +11920,20 @@ header.masthead {
   margin-right: -25px;
 }
 .text_allignment1 {
-  margin-right: 180px;
+  margin-right: 185px;
 }
 .text_allignment2 {
   margin-right: 50px;
 }
 .text_allignment3 {
-  margin-right: 255px;
+  margin-right: 260px;
 }
 .text_allignment {
   margin-top: 20px;
   margin-right: 110px;
 }
 .lines {
-  width: 350px;
+  width: 355px;
   height: 2px;
 }
 .btn_allignment {
