@@ -11700,8 +11700,8 @@ p {
   .lines {
     display: none;
   }
-  .header.masthead {
-    background-image: url("../assets/img/Web_mb.png");
+  header.masthead {
+    background-image: url("assets/img/Web_mb.png");
   }
   .btn_design {
     width: 200px;
@@ -11917,7 +11917,7 @@ header.masthead {
   color: whitesmoke;
 }
 .text_allignment_p {
-  margin-right: -25px;
+  margin-right: -10px;
 }
 .text_allignment1 {
   margin-right: 185px;
