@@ -11687,7 +11687,7 @@ p {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-device-width: 10px) and (max-device-width: 992px) {
+@media only screen and (min-device-width: 10px) and (max-device-width: 480px) {
   .test {
     display: none;
   }
@@ -11701,7 +11701,10 @@ p {
     display: none;
   }
   header.masthead {
-    background-image: url("assets/img/Web_mb.png");
+    padding-top: 30rem;
+    padding-bottom: 15.5rem;
+    background-image: url("../assets/img/Web_mb.png");
+    background-size: cover;
   }
   .btn_design {
     width: 200px;
@@ -11728,10 +11731,76 @@ p {
     font-size: 1.5rem;
     box-sizing: border-box;
   }
+  .cover_bg {
+    background-image: url("../assets/img/Base.png");
+  }
   .section-1 {
     background-image: url("../assets/img/base_mb.png");
   }
-  text_allignment1 {
+  .text_allignment1 {
+    margin-right: none;
+    margin-left: 155px;
+    text-align: center;
+  }
+  .text_allignment2 {
+    margin-right: none;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .text_allignment3 {
+    margin-right: none;
+    margin-left: 150px;
+    text-align: center;
+  }
+}
+@media only screen and ((max-device-width: 481px) and (min-device-width:430px)) {
+  .text_allignment1 {
+    margin-right: none;
+    margin-left: 130px;
+    text-align: center;
+  }
+  .text_allignment2 {
+    margin-right: none;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .text_allignment3 {
+    margin-right: none;
+    margin-left: 120px;
+    text-align: center;
+  }
+}
+@media only screen and ((max-device-width: 420px) and (min-device-width:350px)) {
+  .text_allignment1 {
+    margin-right: none;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .text_allignment2 {
+    margin-right: none;
+    margin-left: auto;
+    text-align: center;
+  }
+  .text_allignment3 {
+    margin-right: none;
+    margin-left: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-device-width: 270px) {
+  .text_allignment1 {
+    margin-right: none;
+    margin-left: 45px;
+    text-align: center;
+  }
+  .text_allignment2 {
+    margin-right: none;
+    margin-left: 45px;
+    text-align: center;
+  }
+  .text_allignment3 {
+    margin-right: 35px;
+    margin-left: none;
     text-align: center;
   }
 }
@@ -11845,7 +11914,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center; /*Banner text alignment*/
   color: #fff;
-  background-image: url("../assets/img/Web-Banner\ 1.png");
+  /*background-image: url("../assets/img/Web-Banner\ 1_mb.png");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
