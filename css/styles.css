@@ -11687,7 +11687,16 @@ p {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-device-width: 10px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .text_allignment2 {
+    display: none;
+  }
+  .text_allignment1 {
+    display: none;
+  }
+  .text_allignment3 {
+    display: none;
+  }
   .test {
     display: none;
   }
@@ -11712,8 +11721,13 @@ p {
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
   }
   .btn_design_download {
-    width: 200px;
+    width: 230px;
     height: 46px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
+  }
+  .btn_design_download_playstore {
+    width: 220px;
+    height: 50px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
   }
   .btn_design_download_ {
@@ -11737,71 +11751,70 @@ p {
   .section-1 {
     background-image: url("../assets/img/base_mb.png");
   }
-  .text_allignment1 {
-    margin-right: none;
-    margin-left: 155px;
-    text-align: center;
-  }
-  .text_allignment2 {
-    margin-right: none;
-    margin-left: 40px;
-    text-align: center;
-  }
-  .text_allignment3 {
-    margin-right: none;
-    margin-left: 150px;
-    text-align: center;
-  }
 }
-@media only screen and ((max-device-width: 481px) and (min-device-width:430px)) {
-  .text_allignment1 {
-    margin-right: none;
-    margin-left: 130px;
-    text-align: center;
-  }
+@media only screen and (min-device-width: 10px) and (max-device-width: 480px) {
   .text_allignment2 {
-    margin-right: none;
-    margin-left: 20px;
-    text-align: center;
+    display: none;
+  }
+  .text_allignment1 {
+    display: none;
   }
   .text_allignment3 {
-    margin-right: none;
-    margin-left: 120px;
+    display: none;
+  }
+  .test {
+    display: none;
+  }
+  .test1 {
+    display: block;
+  }
+  .win_text {
     text-align: center;
   }
-}
-@media only screen and ((max-device-width: 420px) and (min-device-width:350px)) {
-  .text_allignment1 {
-    margin-right: none;
-    margin-left: 40px;
-    text-align: center;
+  .lines {
+    display: none;
   }
-  .text_allignment2 {
-    margin-right: none;
-    margin-left: auto;
-    text-align: center;
+  header.masthead {
+    padding-top: 30rem;
+    padding-bottom: 15.5rem;
+    background-image: url("../assets/img/Web_mb.png");
+    background-size: cover;
   }
-  .text_allignment3 {
-    margin-right: none;
-    margin-left: 20px;
-    text-align: center;
+  .btn_design {
+    width: 200px;
+    height: 46px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
   }
-}
-@media only screen and (max-device-width: 270px) {
-  .text_allignment1 {
-    margin-right: none;
-    margin-left: 45px;
-    text-align: center;
+  .btn_design_download {
+    width: 210px;
+    height: 46px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
   }
-  .text_allignment2 {
-    margin-right: none;
-    margin-left: 45px;
-    text-align: center;
+  .btn_design_download_playstore {
+    width: 220px;
+    height: 50px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
   }
-  .text_allignment3 {
-    margin-right: 35px;
-    margin-left: none;
-    text-align: center;
+  .btn_design_download_ {
+    margin-right: -500px;
+    width: 120px;
+    height: 30px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
+  }
+  .card_padding {
+    padding-bottom: 15px;
+    box-sizing: border-box;
+  }
+  .section-heading {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+  }
+  .cover_bg {
+    background-image: url("../assets/img/Base.png");
+  }
+  .section-1 {
+    background-image: url("../assets/img/base_mb.png");
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 2000px) {
@@ -11811,6 +11824,7 @@ p {
   .test {
     display: block;
   }
+  .
 }
 
 @media (min-width: 768px) {
@@ -11989,13 +12003,13 @@ header.masthead {
   margin-right: -10px;
 }
 .text_allignment1 {
-  margin-right: 185px;
+  margin-right: 140px;
 }
 .text_allignment2 {
   margin-right: 50px;
 }
 .text_allignment3 {
-  margin-right: 260px;
+  margin-right: 230px;
 }
 .text_allignment {
   margin-top: 20px;
@@ -12011,6 +12025,7 @@ header.masthead {
 .btn_design {
   width: 360px;
   height: 46px;
+
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12);
 }
 
@@ -12310,6 +12325,15 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
+  .text_allignment2_cen {
+    display: none;
+  }
+  .text_allignment1_cen {
+    display: none;
+  }
+  .text_allignment3_cen {
+    display: none;
+  }
   .timeline:before {
     left: 50%;
   }
