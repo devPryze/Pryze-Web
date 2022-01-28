@@ -12013,7 +12013,7 @@ header.masthead {
 }
 .text_allignment {
   margin-top: 20px;
-  margin-right: 110px;
+  margin-right: 80px;
 }
 .lines {
   width: 355px;
@@ -12031,8 +12031,8 @@ header.masthead {
 
 .Security_text {
   margin-top: -50px;
-  margin-right: 90px;
-  font-size: 15px;
+  margin-right: 70px;
+  font-size: 14px;
 }
 .Qr_allignment {
   display: inline;
@@ -12040,7 +12040,7 @@ header.masthead {
 }
 .verified_icon_allignment {
   display: inline;
-  margin-right: 160px;
+  margin-right: 150px;
 }
 .section-1 {
   background-image: url("https://d34tptslfp3wcz.cloudfront.net/img/Bg_Section-1.png");

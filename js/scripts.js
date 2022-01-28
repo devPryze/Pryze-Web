@@ -16,7 +16,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   // Shrink the navbar
   navbarShrink();
-
   // Shrink the navbar when page is scrolled
   document.addEventListener("scroll", navbarShrink);
 
@@ -42,6 +41,23 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+document.getElementBYyId("button").addEventListner("click", SendSms);
+function SendSms() {
+  const url = "https://lisbon.api.pryze.pk:3000/api/download-app";
+  var mobile = $("#mobile").val();
+  mobile.toString();
+  console.log("92" + mobile);
+  const data = {
+    mobile_no: "92" + mobile,
+  };
+  $(".btn").click(function () {
+    $.post(url, data, function (data, status) {
+      console.log("${data}and status is ${status}");
+    });
+  });
+}
+
 jQuery(document).ready(function ($) {
   "use strict";
   //  TESTIMONIALS CAROUSEL HOOK
